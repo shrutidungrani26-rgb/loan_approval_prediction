@@ -1,0 +1,87 @@
+{
+    "model_name": "Logistic Regression Classification Pipeline",
+    "dataset_shape": [
+        4269,
+        13
+    ],
+    "train_samples": 3415,
+    "test_samples": 854,
+    "features_count": 11,
+    "accuracy": 0.9227,
+    "precision_approved": 0.9266,
+    "recall_approved": 0.951,
+    "f1_approved": 0.9387,
+    "precision_rejected": 0.9159,
+    "recall_rejected": 0.8762,
+    "f1_rejected": 0.8956,
+    "macro_f1": 0.9171,
+    "weighted_f1": 0.9224,
+    "roc_auc": 0.9745,
+    "confusion_matrix": {
+        "true_rejected": 283,
+        "false_approved": 40,
+        "false_rejected": 26,
+        "true_approved": 505
+    },
+    "feature_importance": [
+        {
+            "Feature": "cibil_score",
+            "Coefficient": -4.1041092997044055,
+            "Abs_Coefficient": 4.1041092997044055
+        },
+        {
+            "Feature": "income_annum",
+            "Coefficient": 1.647075525140067,
+            "Abs_Coefficient": 1.647075525140067
+        },
+        {
+            "Feature": "loan_amount",
+            "Coefficient": -1.2511426828972014,
+            "Abs_Coefficient": 1.2511426828972014
+        },
+        {
+            "Feature": "loan_term",
+            "Coefficient": 0.8496188359592257,
+            "Abs_Coefficient": 0.8496188359592257
+        },
+        {
+            "Feature": "luxury_assets_value",
+            "Coefficient": -0.3186393304473312,
+            "Abs_Coefficient": 0.3186393304473312
+        },
+        {
+            "Feature": "self_employed_Yes",
+            "Coefficient": -0.21176294582504548,
+            "Abs_Coefficient": 0.21176294582504548
+        },
+        {
+            "Feature": "education_Not Graduate",
+            "Coefficient": 0.10784658110110598,
+            "Abs_Coefficient": 0.10784658110110598
+        },
+        {
+            "Feature": "bank_asset_value",
+            "Coefficient": -0.10356326429282561,
+            "Abs_Coefficient": 0.10356326429282561
+        },
+        {
+            "Feature": "commercial_assets_value",
+            "Coefficient": -0.08129332046709338,
+            "Abs_Coefficient": 0.08129332046709338
+        },
+        {
+            "Feature": "no_of_dependents",
+            "Coefficient": 0.038858621027005616,
+            "Abs_Coefficient": 0.038858621027005616
+        },
+        {
+            "Feature": "residential_assets_value",
+            "Coefficient": -0.027655202853954123,
+            "Abs_Coefficient": 0.027655202853954123
+        }
+    ],
+    "classes": [
+        "Approved",
+        "Rejected"
+    ]
+}
